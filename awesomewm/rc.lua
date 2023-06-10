@@ -89,7 +89,7 @@ autostart = true
 
 autostartCommands = {
 	"nm-applet",
-	"cbatticon",
+	"killall cbatticon; cbatticon",
 	"picom --experimental-backend --config /home/b1tc0r3/.config/picom/picom.conf",
 }
 
