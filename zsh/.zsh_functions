@@ -1,0 +1,4 @@
+# Output directory content when switching cwd
+chpwd() {
+    lsd
+}
