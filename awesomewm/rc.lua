@@ -89,8 +89,8 @@ autostart = true
 
 autostartCommands = {
 	"nm-applet",
+	"cbatticon",
 	"picom --experimental-backend --config /home/b1tc0r3/.config/picom/picom.conf",
-	"xrandr --output DisplayPort-0 --right-of HDMI-A-1",
 }
 
 if autostart then
