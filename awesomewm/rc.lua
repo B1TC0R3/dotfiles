@@ -360,7 +360,7 @@ globalkeys = gears.table.join(
               {description = "toggle mute", group = "volume control"}),
 
     -- Quality of life
-    awful.key({ modkey, "Shift" }, "s", function () awful.spawn.with_shell("xfce4-screenshooter -r --save /dev/stdout | xclip -i -selection clipboard -t image/png") end, { description = "take screenshot", group = "quality of life" }),
+    awful.key({ modkey, "Shift" }, "s", function () awful.spawn.with_shell("flameshot gui --clipboard") end, { description = "take screenshot", group = "quality of life" }),
 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.spawn(terminal) end,
